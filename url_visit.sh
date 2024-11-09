@@ -24,7 +24,8 @@
 usage() {
     echo 'Usage: url_visit.sh DOMAIN...
 
-Without argument, it cannot run, obviously ;-)
+The sitemap is expected to be called 'sitemap.xml'. We look for http://mydomain.com/sitemap.xml.
+Without an argument, it cannot run, obviously ;-)
 
 Information:
   -h    Prints this help and exits.
